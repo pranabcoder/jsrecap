@@ -44,3 +44,19 @@ const myFunction = function () {
   console.log('hello world')
 }
 console.log(typeof myFunction) // function
+
+// +++++++++++++++++++++++++ Memory +++++++++++++++++++++++++
+// Stack, Heap,
+
+// Example - Stack Memory
+const myYouTubeName = 'pranabTechnical'
+let anotherName = myYouTubeName
+anotherName = 'chaiAurCode'
+console.log(myYouTubeName, anotherName) // pranabTechnical chaiAurCode
+
+// Example - Heap Memory
+const userDetails = {
+  email: 'user@test.com',
+  upi: 'user@upi.com',
+}
+console.log(userDetails)
