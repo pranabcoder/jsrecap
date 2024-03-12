@@ -30,3 +30,17 @@ console.log(id === anotherId) // false
 const bigNumber = 67890120n
 console.log(bigNumber) // 67890120n
 console.log(typeof bigNumber) // bigint
+// Example - array type
+const heros = ['superman', 'batman', 'doga']
+console.log(typeof heros) // object but array
+// Example - object type
+const user = {
+  name: 'john',
+  age: 30,
+}
+console.log(typeof user) // object
+// Example - declare a function() using variable
+const myFunction = function () {
+  console.log('hello world')
+}
+console.log(typeof myFunction) // function
