@@ -15,3 +15,7 @@ console.log(typeof highScore) // object
 // check the toPrecision method - mostly used to convert number to string with fixed length
 const otherNumber = 123.8966
 console.log(otherNumber.toPrecision(3)) // 124
+console.log(otherNumber.toPrecision(4)) // 123.9
+// check the toLocaleString method - mostly used to convert number to string with local language format
+const hundreds = 1000000
+console.log(hundreds.toLocaleString('en-In')) // 10,00,000
