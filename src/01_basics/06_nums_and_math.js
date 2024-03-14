@@ -26,3 +26,30 @@ console.log(Math) // Math object
 // Example - absolute value in js
 console.log(`Absolute value of -100 is ${Math.abs(-100)}`) // Absolute value of -100 is 100
 console.log(`Absolute value of 100 is ${Math.abs(100)}`) // Absolute value of 100 is 100
+
+// Example - round value in js
+console.log(`Round value of 100.4 is ${Math.round(100.4)}`) // Round value of 100.4 is 100
+console.log(`Round value of 100.6 is ${Math.round(100.6)}`) // Round value of 100.6 is 101
+
+// Example - ceil value in js
+console.log(`Ceil value of 100.4 is ${Math.ceil(100.4)}`) // Ceil value of 100.4 is 101
+
+// Example - floor value in js
+console.log(`Floor value of 100.6 is ${Math.floor(100.6)}`) // Floor value of 100.6 is 100
+
+// Example - max value in js
+console.log(`Max value of 100, 200, 300 is ${Math.max(100, 200, 300)}`) // Max value of 100, 200, 300 is 300
+
+// Example - min value in js
+console.log(`Min value of 100, 200, 300 is ${Math.min(100, 200, 300)}`) // Min value of 100, 200, 300 is 100
+
+// Example - random value in js
+console.log(`Random value between 0 and 1 is ${Math.random()}`) // Random value between 0 and 1 is 0.123456789
+console.log(
+  `Random value between 1 and 10 is ${Math.floor(Math.random() * 10) + 1}`
+) // Random value between 1 and 10 is 5
+console.log(
+  `Random value between 1 and 100 is ${Math.floor(Math.random() * 100) + 1}`
+) // Random value between 1 and 100 is 50
+
+// Example - Another way to generate random value in js
