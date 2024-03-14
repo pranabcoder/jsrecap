@@ -53,3 +53,8 @@ console.log(
 ) // Random value between 1 and 100 is 50
 
 // Example - Another way to generate random value in js
+const min = 10
+const max = 20
+console.log(
+  `Random value between ${min} and ${max} is ${Math.floor(Math.random() * (max - min + 1)) + min}`
+) // Random value between 10 and 20 is 14
