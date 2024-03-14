@@ -19,3 +19,10 @@ console.log(otherNumber.toPrecision(4)) // 123.9
 // check the toLocaleString method - mostly used to convert number to string with local language format
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-In')) // 10,00,000
+
+// +++++++++++++++++++++++ Math Object +++++++++++++++++++++++
+console.log(Math) // Math object
+
+// Example - absolute value in js
+console.log(`Absolute value of -100 is ${Math.abs(-100)}`) // Absolute value of -100 is 100
+console.log(`Absolute value of 100 is ${Math.abs(100)}`) // Absolute value of 100 is 100
